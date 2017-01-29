@@ -6,8 +6,8 @@ package module2.HomeWork_2_1;
 public class HomeWork_2_1 {
 
     public static void main(String[] args) {
-        double[] doubArray = {-1.2, -1.5, 2.4, 2.5, 3.7, 3.5, 4.4, -4.5, 4.7, 4.9};
-        int[] intArray = {1, 2, 3, 4, 5, 6, 7, 8, -9, 10};
+        double[] doubArray = {-5.2, -1.5, 2.4, 2.5, 3.7, 3.5, 4.4, -4.5, 4.7, 4.9};
+        int[] intArray = {43, 2, 3, 4, 5, 6, 7, 8, -9, 10};
         double doSum, doMin, doMax, doMaxPos, doMult, doSecLar;
         doSum =  doMaxPos = doSecLar = 0;
         doMult = 1;
@@ -46,8 +46,8 @@ public class HomeWork_2_1 {
         System.out.println("Max positive int -> " + intMaxPos);
         System.out.println("Multiple double -> " + doMult);
         System.out.println("Multiple int -> " + intMult);
-        System.out.println("Modulus 1 double -> " + Math.abs(doubArray[0]) + "  Modulus last double -> " + Math.abs(doubArray[doubArray.length -1]));
-        System.out.println("Modulus 1 ins -> " + Math.abs(intArray[0]) + "  Modulus last int -> " + Math.abs(intArray[intArray.length -1]));
+        System.out.println("Modulus 1 and last double -> " + (doubArray[0]%doubArray[doubArray.length -1]));
+        System.out.println("Modulus 1 and last ins -> " + (intArray[0]%intArray[intArray.length -1]));
         System.out.println("Second largest double -> " + doSecLar);
         System.out.println("Second largest int -> " + intSecLar);
 
