@@ -1,4 +1,4 @@
-package module2.HomeWork_2_1;
+package module2.Homework_2_2;
 
 /**
  * Created by Admin on 29.01.2017.
