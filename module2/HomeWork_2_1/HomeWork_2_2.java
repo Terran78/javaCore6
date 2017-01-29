@@ -15,17 +15,12 @@ public class HomeWork_2_2 {
         System.out.println("balance    = " + balance);
         System.out.println("withdrawal = " + withrawal);
         System.out.println(" ");
-
+        System.out.println("Output");
+        System.out.println("-------");
         if ((withrawal + (withrawal*commision))<balance) {
             balance -= (withrawal + (withrawal * commision));
-            System.out.println("Output");
-            System.out.println("-------");
             System.out.println("OK " + (withrawal * commision) + " " + balance);
         }
-            else {
-            System.out.println("Output");
-            System.out.println("-------");
-            System.out.println("NO ");
-        }
+            else System.out.println("NO ");
         }
     }
